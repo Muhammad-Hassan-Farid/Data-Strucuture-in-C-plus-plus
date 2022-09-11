@@ -66,8 +66,8 @@ int main()
     }
     cout<<"\n Before: ";
     display();
-    cout<<"\n After: ";
     delet();
+    cout<<"\n After: ";
     display();
 
 }
