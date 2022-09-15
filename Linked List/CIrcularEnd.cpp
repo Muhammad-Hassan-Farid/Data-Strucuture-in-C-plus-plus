@@ -5,7 +5,7 @@ struct Node
 {
     int data;
     Node *next;
-};
+}; 
 
 Node *first = NULL;
 Node *last = NULL;
@@ -26,7 +26,7 @@ void insert(int x)
         curr->data = x;
         curr->next = first;
         last->next = curr;
-        first = curr;
+        last = curr;
     }
 }
 void display()
@@ -36,7 +36,8 @@ void display()
     {
         cout << curr->data << " ";
         curr = curr->next;
-    } while (curr != first);
+    }
+    while (curr != first);
 }
 
 int main()
