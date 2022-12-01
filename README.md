@@ -284,6 +284,8 @@ It looks for a particular item by comparing the **middle most item** of the coll
 - Time Complexity: **O(log n)** 
 - Space Complexity: **O(1)**
 
+
+
 ### Credit
 - <a href="http://daoud-hussain.com/"> Daoud Hussain </a> 
 ### References:
